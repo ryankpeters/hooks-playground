@@ -5,4 +5,7 @@ install:
   cd mocha_test && npm install mocha
 
 script:
-  cd mocha_test && npm test
+  - pwd
+  - ls -lh
+
+#cd mocha_test && npm test
