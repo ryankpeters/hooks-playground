@@ -2,7 +2,7 @@ language: node_js
 sudo: enabled
 
 install:
-  npm install mocha
+  cd mocha_test && npm install mocha
 
 script:
   cd mocha_test && npm test
