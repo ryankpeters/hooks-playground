@@ -1,5 +1,5 @@
 var assert = require('assert');
-var myTest = require('../code/code.js');
+var myTest = require('../problem_1/problem_1.js');
 
 describe('TESTS', function() {
   describe('Working Test', function() {
