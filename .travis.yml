@@ -1,10 +1,12 @@
 language: node_js
 sudo: enabled
 
+node_js:
+  - "iojs"
+  - "8"
+
 install:
   cd mocha_test && npm install mocha
 
 script:
   - npm test
-
-#cd mocha_test && npm test
