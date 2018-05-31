@@ -1,9 +1,7 @@
 language: node_js
 sudo: enabled
 
-node_js:
-  - "iojs"
-  - "8"
+node_js: "8"
 
 install:
   cd mocha_test && npm install mocha
